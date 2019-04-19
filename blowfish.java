@@ -12,7 +12,7 @@ class blowfish{
 		byte[] emsg=ch.doFinal(input.getBytes());
 		ch.init(Cipher.DECRYPT_MODE,sk);
 		byte[] dmsg=ch.doFinal(emsg);
-		JOptionPane.showMessageDialog(JOptionPane.getRootFrame(),"encrypted : " + new String(emsg)+"\ndecrypted : " + new String(dmsg));
+		JOptionPane.showMessageDialog(null,"encrypted : " + new String(emsg)+"\ndecrypted : " + new String(dmsg));
 		System.exit(0);
 	}
 }
