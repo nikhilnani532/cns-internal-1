@@ -1,7 +1,7 @@
 import java.math.BigInteger;
 import java.security.MessageDigest;
 class md5{
-	public static void main(String[] args) {
+	public static void main(String[] args)thorws Exception {
 		try{
 		String input="hello world";
 		MessageDigest md=MessageDigest.getInstance("MD5");
