@@ -1,7 +1,7 @@
 import java.math.BigInteger;
 import java.security.MessageDigest;
 class sha1{
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception{
 		try{
 		String input="hello world";
 		MessageDigest md=MessageDigest.getInstance("SHA-1");
